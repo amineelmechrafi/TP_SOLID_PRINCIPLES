@@ -1,4 +1,4 @@
-package org.example;
+package exo1;
 
 import exo1.Command;
 import exo1.Facture;
@@ -10,8 +10,8 @@ public class Main {
         p.setLibele("Black cofee");
         p.setPrix(50);
         Produit p2=new Produit();
-        p.setLibele("Green tea");
-        p.setPrix(55.55);
+        p2.setLibele("Green tea");
+        p2.setPrix(55.55);
         Command c=new Command(1);
         c.addProduit(p,5);
         c.addProduit(p2,6);
