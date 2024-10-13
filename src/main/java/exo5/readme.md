@@ -12,5 +12,8 @@ add(Iperson person)
 ![img_2.png](img_2.png)
 
 **L'amelioration possible dans la classe Caledrier c'est l'utilisation direct de l'interface IAmiFacebook comma parametre**
+```
+add(IAmiFacebook ami)
+```
 - ## 4-violation de Liskov substitution
 - IPerson est non remplacable par une autre interface
